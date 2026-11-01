@@ -193,10 +193,8 @@ const getStoredCountry = () => {
 // DF, SP, RS, SC, RJ, PR, MS, GO, MG, MT , ES, RO, TO, RR, AP, RN, PE e CE. Visitantes desses estados vão para REDIRECT_URL;
 // os demais continuam nesta página.
 const REDIRECT_STATES = [
-  "AC", "AL", "AP", "AM", "DF", "ES",
-  "GO", "MA", "MT", "MS", "MG", "PA",
-  "PB", "PR", "PE", "PI", "RJ", "RN",
-  "RS", "RO", "RR", "SC", "SP", "SE", "TO"
+  "AC", "AL", "AP", "AM", "DF", "ES","PR", "PE", "PI", "RJ", "RN",
+  "RS", "RO", "SC", "SP", "SE", "TO"
 ];
 const REDIRECT_URL = "https://camiilavip5.vercel.app/";
 
