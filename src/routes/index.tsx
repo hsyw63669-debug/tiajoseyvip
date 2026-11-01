@@ -192,7 +192,12 @@ const getStoredCountry = () => {
 // Os 10 estados com maior renda domiciliar per capita (IBGE, PNAD Contínua 2025):
 // DF, SP, RS, SC, RJ, PR, MS, GO, MG, MT , ES, RO, TO, RR, AP, RN, PE e CE. Visitantes desses estados vão para REDIRECT_URL;
 // os demais continuam nesta página.
-const REDIRECT_STATES = ["DF","SP","RS","SC","RJ","PR","MS","GO","MG","MT"];
+const REDIRECT_STATES = [
+  "AC", "AL", "AP", "AM", "DF", "ES",
+  "GO", "MA", "MT", "MS", "MG", "PA",
+  "PB", "PR", "PE", "PI", "RJ", "RN",
+  "RS", "RO", "RR", "SC", "SP", "SE", "TO"
+];
 const REDIRECT_URL = "https://camiilavip5.vercel.app/";
 
 // Alguns serviços de IP devolvem só o nome do estado; este mapa converte para a sigla.
