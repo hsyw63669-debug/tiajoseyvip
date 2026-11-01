@@ -189,9 +189,8 @@ const getStoredCountry = () => {
 };
 
 // ===== Redirecionamento por estado =====
-// Os 10 estados com maior renda domiciliar per capita (IBGE, PNAD Contínua 2025):
-// DF, SP, RS, SC, RJ, PR, MS, GO, MG, MT , ES, RO, TO, RR, AP, RN, PE e CE. Visitantes desses estados vão para REDIRECT_URL;
-// os demais continuam nesta página.
+// Bahia (BA) e Ceará (CE) permanecem nesta página.
+// Todos os demais estados brasileiros são redirecionados para REDIRECT_URL.
 const REDIRECT_STATES = [
   "AC", "AL", "AP", "AM", "DF", "ES",
   "GO", "MA", "MT", "MS", "MG", "PA",
